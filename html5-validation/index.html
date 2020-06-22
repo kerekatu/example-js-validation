@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5 Validation</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <main>
+      <form>
+        <h1>Newsletter</h1>
+        <p>Join our newsletter to never miss important updates!</p>
+        <div class="input-container">
+          <label for="inputName">First Name</label>
+          <input
+            type="text"
+            name="inputName"
+            id="inputName"
+            placeholder="Konrad"
+            minlength="2"
+          />
+        </div>
+        <div class="input-container">
+          <label for="inputAge">Email Address</label>
+          <input
+            type="email"
+            name="inputAge"
+            id="inputAge"
+            placeholder="konrad@website.com"
+            required
+          />
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </main>
+  </body>
+</html>
